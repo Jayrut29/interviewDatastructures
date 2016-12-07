@@ -6,7 +6,6 @@ abc def
 function reverseLetters(string, start, end) {
   var result = string.split('');
   var start = start;
-  var end = end;
   while (start < end) {
     var temp = result[start];
     result[start] = result[end];
